@@ -1,0 +1,37 @@
+.App {
+    color:black;
+    text-align: center;
+}
+.footer {
+  background-color: #691c1c;
+  
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+}
+nav {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: inline;
+  margin: 0 20px;
+}
+
+a {
+  color: #884b4b;
+  text-decoration: none;
+  font-size: 8px;
+  padding: 1px;
+  transition: background-color 1s;
+  border-bottom: 2px solid transparent;
+}
+a:hover {
+  background-color:#0042cf;
+  border-bottom: 2px solid #FFF;
+}
